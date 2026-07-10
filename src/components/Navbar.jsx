@@ -1,6 +1,7 @@
 export default function Navbar(){
     return(
-        <nav className="bg-amber-500 h-15 w-full mx-0 fixed">
+
+        <nav className="bg-amber-500 h-15 w-7xl mx-auto fixed z-50">
             <ul className="bg-amber-600 h-full flex flex-row items-center justify-center space-x-20">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -10,5 +11,6 @@ export default function Navbar(){
                 <li><a href="#resume">Resume</a></li>
             </ul>
         </nav>
+        
     )
 };
