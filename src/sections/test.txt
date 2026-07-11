@@ -1,0 +1,54 @@
+        <div className='bg-amber-400 flex flex-row items-center justify-center px-35 my-1/2 '>
+            {/* Left Content */}
+            <div className="w-1/2">
+                <p className="text-blue-900 md:text-lg mb-4">
+                Hello, I’m Vaibhav,
+                </p>
+                {/* 
+                <h1 className="text-blue-950 font-extrabold text-6xl leading-tight">
+                 Hello, I’m Vaibhav,
+                </h1> */}
+
+                <h1 className="text-blue-950 font-extrabold text-6xl leading-tight">
+                Aspiring <br />
+                Full stack developer
+                </h1>
+
+                <p className="text-blue-900 mt-4 text-lg">
+                Automation Test Engineer with 3 years of experience in Manual and Automation Testing. ISTQB certified with expertise in test case design, regression testing, and functional testing in Agile environments. Experienced in ensuring software quality for web applications. Currently looking to transition into Full Stack Development using React, Express, SQL and Node.
+                </p>
+
+                <button className="mt-8 border border-yellow-500 bg-yellow-100 px-8 py-2 text-sm text-blue-900 hover:bg-yellow-200 transition">
+                Resume
+                </button>
+            </div>
+
+
+            {/* Right Image */}
+            <div className="w-1/2 flex justify-center relative">
+
+                {/* Circle background */}
+                <div className="absolute w-87.5 h-87.5 rounded-full bg-[#f5f2c5]"></div>
+
+
+                {/* Image */}
+                <img
+                src={profile}
+                alt="profile"
+                className="relative z-10 w-[320px] h-80 object-cover rounded-full border-2 border-gray-300"
+                />
+
+
+                {/* Top decoration */}
+                <div className="absolute -top-5 right-20 text-blue-950 text-3xl">
+                ✣
+                </div>
+
+
+                {/* Left decoration */}
+                <div className="absolute bottom-16 left-10 text-green-900 text-4xl">
+                ///
+                </div>
+
+            </div>
+        </div>
