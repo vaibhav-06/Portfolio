@@ -7,10 +7,10 @@ import {
 } from "lucide-react";
 
 const navItems = [
-  { id: "home", label: "Home", icon: House },
+//   { id: "home", label: "Home", icon: House },
   { id: "about", label: "About", icon: User },
-  { id: "projects", label: "Projects", icon: Briefcase },
   { id: "skills", label: "Skills", icon: Code2 },
+  { id: "projects", label: "Projects", icon: Briefcase },
   { id: "contact", label: "Contact", icon: Mail },
 ];
 

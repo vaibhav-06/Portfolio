@@ -18,7 +18,7 @@ export default function About(){
                 {/* use text-center in flex both to center text only */}
                 <div className='bg-amber-800 relative p-2 flex flex-col justify-center items-center text-center gap-2'>
                     <h1 className="text-blue-900 text-xl md:text-lg">Hi, I am Vaibhav,</h1>
-                    <h1 className="text-blue-950 font-extrabold text-5xl leading-tight">Aspiring<br/> Full stack developer</h1>
+                    <h1 className="text-blue-950 font-extrabold text-5xl leading-tight">Aspiring <br />Full stack developer</h1>
                     <p className="text-blue-900 mt-4 text-lg">
                     Automation Test Engineer with 3 years of experience in software testing, seeking to transition into a Full Stack Developer role by leveraging skills in React, Node.js, Express.js, and SQL.
                     </p>
